@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Overview](#project-overview-(non-technical-summary)
 - [Getting started](##getting-started)
 - [Step by Step workflow](##step-by-step-workflow)
 - [Results & Interpretaion](##dresults-&-interpretation)
