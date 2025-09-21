@@ -4,10 +4,10 @@
 
 ## Table of Contents
 
-- [Project Overview](#project-overview-(non-technical-summary)
-- [Getting started](##getting-started)
-- [Step by Step workflow](##step-by-step-workflow)
-- [Results & Interpretaion](##dresults-&-interpretation)
+- [Project Overview (Non-Technical Summary)](#project-overview-non-technical-summary)
+- [Getting Started / How to use this Repo](##getting-started--how-to-use-this-repo)
+- [Step-by-Step Workflow](##step-by-step-workflow)
+- [Results & Interpretaion](##dresults--interpretation)
 - [Technical Appendix](##technical-appendix)
 
 ---
