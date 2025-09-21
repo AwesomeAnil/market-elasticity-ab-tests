@@ -6,6 +6,7 @@
 
 - [Project Overview (Non-Technical Summary)](#project-overview-non-technical-summary)
 - [Getting Started / How to use this Repo](##getting-started--how-to-use-this-repo)
+- [https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#2-getting-started--how-to-use-this-repo](url)
 - [Step-by-Step Workflow](##step-by-step-workflow)
 - [Results & Interpretaion](##dresults--interpretation)
 - [Technical Appendix](##technical-appendix)
