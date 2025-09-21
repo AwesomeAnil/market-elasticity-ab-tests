@@ -4,17 +4,13 @@
 
 ## Table of Contents
 
-- [Project Overview (Non-Technical Summary)](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#2-getting-started--how-to-use-this-repo)
-- [Getting Started / How to use this Repo](##getting-started--how-to-use-this-repo)
-- [https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#2-getting-started--how-to-use-this-repo](url)
-- [Step-by-Step Workflow](##step-by-step-workflow)
-- [Results & Interpretaion](##dresults--interpretation)
-- [Technical Appendix](##technical-appendix)
-- https://github.com/AwesomeAnil/market-elasticity-ab-tests#b-setup-a-new-fabric-trial-capacity-or-use-an-existing-fabric-capacity
-
-- [Project Overview (Non-Technical Summary)](#project-overview-non-technical-summary)
-- [Results & Interpretation](#results-interpretation)
-- [Getting Started / How to use this Repo](#getting-started--how-to-use-this-repo)
+- [Project Overview (Non-Technical Summary)](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#1-project-overview-non-technical-summary)
+- [Getting Started / How to use this Repo](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#2-getting-started--how-to-use-this-repo)
+ - [Clone the Repository](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#a-clone-the-repository)
+ - [Setup a new fabric trial capacity](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-setup-a-new-fabric-trial-capacity-or-use-an-existing-fabric-capacity
+)
+ - [Data Sources](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-data-sources)
+ - [Lakehouse Folder Structure](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#lakehouse-folder-structure)
 
 
 ---
