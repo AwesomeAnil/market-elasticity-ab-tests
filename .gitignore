@@ -1,0 +1,53 @@
+# ---------------------------
+# Data files to ignore
+# ---------------------------
+# Large data files stored in Fabric Lakehouse
+*.csv
+*.parquet
+*.delta
+*.tsv
+*.xlsx
+*.db
+
+# Raw / staged / transformed folders
+/raw/
+/staged/
+/transformed/
+
+# Sample data folder (optional) – keep only small files
+# /sample_data/  # Uncomment if you want Git to ignore even sample files
+
+# ---------------------------
+# Python / Notebook
+# ---------------------------
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# ---------------------------
+# Logs & temp
+# ---------------------------
+*.log
+*.tmp
+*.temp
+
+# ---------------------------
+# System files
+# ---------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---------------------------
+# IDE / Editor files
+# ---------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
