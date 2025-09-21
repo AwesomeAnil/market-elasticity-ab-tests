@@ -44,9 +44,11 @@ The project uses the following datasets:
 |----------------------------------|-------------------------------------------------|--------|--------------------|
 | HVFHV Trip Data 2025-01           | Real taxi trip data for January 2025         | CSV/Parquet | [Fabric Lakehouse Table](#) |
 
-Link to data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
+**Link to data**: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
 
-Downloaded file name: 2025 \ January \ For-Hire Vehicle Trip Records (PARQUET)
+**Downloaded file name**: 2025 \ January \ For-Hire Vehicle Trip Records (PARQUET)
+
+**Data Dictionary**: ![Data Dictionary](./docs/data_dictionary_trip_records_hvfhs.pdf)
 
 ### C) Fabric Lakehouse Folders  
 
