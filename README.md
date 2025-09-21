@@ -73,6 +73,10 @@ Lakehouse: "hvFHV"  (high volume For Hire Services)
 
 ![Fabric Lakehouse Overview](./screenshots/Lakehouse_explorer_view.png)
 
+## Workspace folder structure for Notebooks
+
+![Fabric Notebooks View](./screenshots/Notebook_structure.png)
+
 ---
 
 ## 2. Step-by-Step Workflow
