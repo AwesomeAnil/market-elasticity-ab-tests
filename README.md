@@ -15,6 +15,24 @@ We measure:
 
 ---
 
+## 2. Getting Started / How to use this Repo
+
+### A). Clone the repository
+
+#### Using HTTPS 
+git clone https://github.com/AwesomeAnil/market-elasticity-ab-tests.git
+
+#### Using SSH
+git clone git@github.com:AwesomeAnil/market-elasticity-ab-tests.git
+
+### B). Setup a new Fabric trial capacity or use an existing fabric capacity. 
+
+Visit the following links: 
+https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial 
+https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial?utm_source=chatgpt.com#start-the-fabric-capacity-trial
+https://microsoft.github.io/Data-AI-Kenya-Hack/CREATE_FABRIC_CAPACITY.html
+
+
 ## 2. Step-by-Step Workflow
 
 1. **Data Load** — Read staged trip-level parquet with `pickup_datetime`, `trip_miles`, `trip_time`, `base_passenger_fare`, `is_airport`, `is_peak`, `is_weekend`, `distance_segment`, `time_segment`, etc. (from the notebook).&#x20;
