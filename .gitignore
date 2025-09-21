@@ -2,7 +2,7 @@
 # Data files to ignore
 # ---------------------------
 # Large data files stored in Fabric Lakehouse
-*.csv
+#*.csv
 *.parquet
 *.delta
 *.tsv
