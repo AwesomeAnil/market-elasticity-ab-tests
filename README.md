@@ -29,9 +29,48 @@ git clone git@github.com:AwesomeAnil/market-elasticity-ab-tests.git
 
 Visit the following links: 
 https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial 
+
 https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial?utm_source=chatgpt.com#start-the-fabric-capacity-trial
+
 https://microsoft.github.io/Data-AI-Kenya-Hack/CREATE_FABRIC_CAPACITY.html
 
+### B) Data Sources 
+
+## Data Sources
+
+The project uses the following datasets:
+
+| Dataset Name                     | Description                                     | Format  | Source / Access Link |
+|----------------------------------|-------------------------------------------------|--------|--------------------|
+| HVFHV Trip Data 2025-01           | Real taxi trip data for January 2025         | CSV/Parquet | [Fabric Lakehouse Table](#) |
+
+Link to data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
+
+Downloaded file name: 2025 \ January \ For-Hire Vehicle Trip Records (PARQUET)
+
+### C) Fabric Lakehouse Folders  
+
+Lakehouse: "hvFHV"  (high volume For Hire Services) 
+
+## Lakehouse Folder Structure
+
+📂 Tables  
+│   ├── 📄 hvfhv_tripdata_2025-01
+
+📂 Files  
+│   ├── 📂 uploads/  
+│   │   └── 📄 hvFHV_trip_data_2025-01.parquet  
+│   ├── 📂 AB_data/  
+│   │   └── 📂 market_level_elasticity 
+│       	└── 📄 staged_df.parquet  
+│   │   └── 📂 rider_level_elasticity 
+│       	└── 📄 file001.parquet  
+│       	└── 📄 file002.parquet  
+│       	└── 📄 file003.parquet  
+│       	└── 📄 file004.parquet  
+│       	└── 📄 file005.parquet  
+
+---
 
 ## 2. Step-by-Step Workflow
 
