@@ -5,10 +5,10 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Getting started](getting-started)
-- [Step by Step workflow](#step-by-step-workflow)
-- [Results & Interpretaion](#dresults-&-interpretation)
-- [Technical Appendix](#technical-appendix)
+- [Getting started](##getting-started)
+- [Step by Step workflow](##step-by-step-workflow)
+- [Results & Interpretaion](##dresults-&-interpretation)
+- [Technical Appendix](##technical-appendix)
 
 ---
 
