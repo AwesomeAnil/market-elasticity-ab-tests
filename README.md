@@ -70,6 +70,9 @@ Lakehouse: "hvFHV"  (high volume For Hire Services)
 │       	└── 📄 file004.parquet  
 │       	└── 📄 file005.parquet  
 
+
+![Fabric Lakehouse Overview](./screenshots/Lakehouse_explorer_view.png)
+
 ---
 
 ## 2. Step-by-Step Workflow
