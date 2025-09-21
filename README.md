@@ -6,11 +6,18 @@
 
 - [Project Overview (Non-Technical Summary)](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#1-project-overview-non-technical-summary)
 - [Getting Started / How to use this Repo](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#2-getting-started--how-to-use-this-repo)
- - [Clone the Repository](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#a-clone-the-repository)
- - [Setup a new fabric trial capacity](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-setup-a-new-fabric-trial-capacity-or-use-an-existing-fabric-capacity
+  - [Clone the Repository](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#a-clone-the-repository)
+  - [Setup a new fabric trial capacity](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-setup-a-new-fabric-trial-capacity-or-use-an-existing-fabric-capacity
 )
- - [Data Sources](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-data-sources)
- - [Lakehouse Folder Structure](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#lakehouse-folder-structure)
+  - [Data Sources](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-data-sources)
+  - [Lakehouse Folder Structure](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#lakehouse-folder-structure)
+  - [Workspace Folder Structure](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#workspace-folder-structure-for-notebooks)
+ - [Step-by-Step Workflow](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#3-step-by-step-workflow)
+ - [Results & Interpretation](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#4-results--interpretation)
+   - [All-Up Summary](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#a-all-up-market-level-summary)
+   - [Statistical Tests](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-statistical-tests-market-level)
+   - [Segment-Level Summary](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#c-segment-level-full-tables-copied-from-notebook-outputs)
+- [Technical Appendix](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#5-technical-appendix)
 
 
 ---
