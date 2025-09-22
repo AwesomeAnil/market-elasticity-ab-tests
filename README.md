@@ -1,5 +1,27 @@
 # Market-level A/B Simulation of Surge Pricing
 
+# Market Elasticity Project
+
+## Table of Contents
+
+- [Project Overview (Non-Technical Summary)](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#1-project-overview-non-technical-summary)
+- [Getting Started / How to use this Repo](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#2-getting-started--how-to-use-this-repo)
+  - [Clone the Repository](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#a-clone-the-repository)
+  - [Setup a new fabric trial capacity](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-setup-a-new-fabric-trial-capacity-or-use-an-existing-fabric-capacity
+)
+  - [Data Sources](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-data-sources)
+  - [Lakehouse Folder Structure](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#lakehouse-folder-structure)
+  - [Workspace Folder Structure](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#workspace-folder-structure-for-notebooks)
+ - [Step-by-Step Workflow](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#3-step-by-step-workflow)
+ - [Results & Interpretation](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#4-results--interpretation)
+   - [All-Up Summary](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#a-all-up-market-level-summary)
+   - [Statistical Tests](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#b-statistical-tests-market-level)
+   - [Segment-Level Summary](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#c-segment-level-full-tables-copied-from-notebook-outputs)
+- [Technical Appendix](https://github.com/AwesomeAnil/market-elasticity-ab-tests/blob/main/README.md#5-technical-appendix)
+
+
+---
+
 ## 1. Project Overview (Non-Technical Summary)
 
 This project simulates the impact of a **20% surge in fares** on rider acceptance and revenue.
@@ -28,11 +50,10 @@ git clone git@github.com:AwesomeAnil/market-elasticity-ab-tests.git
 ### B). Setup a new Fabric trial capacity or use an existing fabric capacity. 
 
 Visit the following links: 
-https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial 
 
-https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial?utm_source=chatgpt.com#start-the-fabric-capacity-trial
-
-https://microsoft.github.io/Data-AI-Kenya-Hack/CREATE_FABRIC_CAPACITY.html
+- https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial 
+- https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial?utm_source=chatgpt.com#start-the-fabric-capacity-trial
+- https://microsoft.github.io/Data-AI-Kenya-Hack/CREATE_FABRIC_CAPACITY.html
 
 ### B) Data Sources 
 
@@ -44,9 +65,11 @@ The project uses the following datasets:
 |----------------------------------|-------------------------------------------------|--------|--------------------|
 | HVFHV Trip Data 2025-01           | Real taxi trip data for January 2025         | CSV/Parquet | [Fabric Lakehouse Table](#) |
 
-Link to data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
+**Link to data**: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
 
-Downloaded file name: 2025 \ January \ For-Hire Vehicle Trip Records (PARQUET)
+**Downloaded file name**: 2025 \ January \ For-Hire Vehicle Trip Records (PARQUET)
+
+**Data Dictionary**: ![Data Dictionary](./docs/data_dictionary_trip_records_hvfhs.pdf)
 
 ### C) Fabric Lakehouse Folders  
 
@@ -79,7 +102,7 @@ Lakehouse: "hvFHV"  (high volume For Hire Services)
 
 ---
 
-## 2. Step-by-Step Workflow
+## 3. Step-by-Step Workflow
 
 1. **Data Load** — Read staged trip-level parquet with `pickup_datetime`, `trip_miles`, `trip_time`, `base_passenger_fare`, `is_airport`, `is_peak`, `is_weekend`, `distance_segment`, `time_segment`, etc. (from the notebook).&#x20;
 2. **Experiment Setup** — `surge_multiplier = 1.2` applied to treatment group to create `fare_exp`.
@@ -91,7 +114,7 @@ Lakehouse: "hvFHV"  (high volume For Hire Services)
 
 ---
 
-## 3. Results & Interpretation
+## 4. Results & Interpretation
 
 ### A. All-up (Market-level) Summary
 
@@ -239,7 +262,7 @@ Lakehouse: "hvFHV"  (high volume For Hire Services)
 
 ---
 
-## 4. Technical Appendix
+## 5. Technical Appendix
 
 * **Acceptance model (notebook)**:
 
