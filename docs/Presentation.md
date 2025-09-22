@@ -191,26 +191,27 @@ This project simulates an A/B experiment at the market level to measure the impa
 > **Note:** Please export the following plots from the notebook and save them (e.g., in an `images/` folder) to display here.
 
 ### **Acceptance Probability Histogram**
-![Acceptance Probability Histogram](./images/acceptance_histogram.png)
-*Distribution of rider acceptance probabilities across all requests.*
+- ![Acceptance Probability Histogram](./images/acceptance_histogram.png)
 
 ### **Revenue per Request Boxplot by Group**
-![Revenue Boxplot by Group](./images/revenue_boxplot.png)
+- ![Revenue Boxplot by Group](./images/revenue_boxplot.png)
 *Revenue per request for Control (C) and Treatment (T) groups.*
 
 ### **Acceptance Rate Bar Plot by Segment**
-![Acceptance Rate by Segment](./images/acceptance_rate_segment.png)
+- ![Acceptance Rate by Segment](./images/acceptance_rate_segment.png)
 *Acceptance rates for (C) and (T) by market segment (e.g., airport, peak, weekend).*
 
 ### **(EDA - Univariate plots)**
+
+*Distribution of base passenger fares*
 - ![Distributions of fares](../screenshots/hist_base_pax_fare.jpeg)
-* Distribution of base passenger fares*
 
-- ![Distribution of trip times](../screenshots/hist_trip_time.jpeg)
 *Distribution of trim times*
+- ![Distribution of trip times](../screenshots/hist_trip_time.jpeg)
 
-- ![Distribution of miles](,./screenshots/hist_trip_miles.jpeg)
 *Distribution of trip miles*
+- ![Distribution of miles](,./screenshots/hist_trip_miles.jpeg)
+
 
 
 
