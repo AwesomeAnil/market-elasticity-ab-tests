@@ -202,11 +202,15 @@ This project simulates an A/B experiment at the market level to measure the impa
 ![Acceptance Rate by Segment](./images/acceptance_rate_segment.png)
 *Acceptance rates for (C) and (T) by market segment (e.g., airport, peak, weekend).*
 
-### **(Add more EDA plots as needed)**
-- ![Distributions of fares](../screenshots/hist_base_pax_fare.jpeg)
-- ![Distribution of trip times](../screenshots/hist_trip_time.jpeg) 
-- ![Distribution of miles](,./screenshots/hist_trip_miles.jpeg)
-- Comparison histograms for other key metrics
+### **(EDA - Univariate plots)**
+![Distributions of fares](../screenshots/hist_base_pax_fare.jpeg)
+* Distribution of base passenger fares*
+![Distribution of trip times](../screenshots/hist_trip_time.jpeg)
+*Distribution of trim times*
+![Distribution of miles](,./screenshots/hist_trip_miles.jpeg)
+*Distribution of trip miles*
+
+
 
 > _Each plot should have a descriptive caption. If you need help exporting images from your Python notebook, see [matplotlib's savefig](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html) or Jupyter's image export tools._
 
