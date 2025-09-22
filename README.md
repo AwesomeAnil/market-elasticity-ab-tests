@@ -262,6 +262,12 @@ Lakehouse: "hvFHV"  (high volume For Hire Services)
 
 ---
 
+### Project Results
+
+See the full experiment summary and visualizations in [PRESENTATION.md](..docs//PRESENTATION.md).
+
+---
+
 ## 5. Technical Appendix
 
 * **Acceptance model (notebook)**:
