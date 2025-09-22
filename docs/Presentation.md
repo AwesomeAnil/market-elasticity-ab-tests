@@ -210,7 +210,7 @@ This project simulates an A/B experiment at the market level to measure the impa
 ![Distribution of trip times](../screenshots/hist_trip_time.jpeg)
 
 - **Distribution of trip miles**
-![Distribution of trip miles](,./screenshots/hist_trip_miles.jpeg)
+![Distribution of trip miles](../screenshots/hist_trip_miles.jpeg)
 
 - **Boxplot - base passenger fares**
 ![Boxplot of base passenger fares](../screenshots/box_pax_fare.jpeg)
