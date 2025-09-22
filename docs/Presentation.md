@@ -191,41 +191,40 @@ This project simulates an A/B experiment at the market level to measure the impa
 > **Note:** Please export the following plots from the notebook and save them (e.g., in an `images/` folder) to display here.
 
 ### **Acceptance Probability Histogram**
-- ![Acceptance Probability Histogram](./images/acceptance_histogram.png)
+
 
 ### **Revenue per Request Boxplot by Group**
-- ![Revenue Boxplot by Group](./images/revenue_boxplot.png)
+
 *Revenue per request for Control (C) and Treatment (T) groups.*
 
 ### **Acceptance Rate Bar Plot by Segment**
-- ![Acceptance Rate by Segment](./images/acceptance_rate_segment.png)
+
 *Acceptance rates for (C) and (T) by market segment (e.g., airport, peak, weekend).*
 
 ### **(EDA - Univariate plots)**
 
-- *Distribution of base passenger fares*
+- **Distribution of base passenger fares**
 - ![Distributions of fares](../screenshots/hist_base_pax_fare.jpeg)
 
-- *Distribution of trim times*
+- **Distribution of trim times**
 - ![Distribution of trip times](../screenshots/hist_trip_time.jpeg)
 
-- *Distribution of trip miles*
+- **Distribution of trip miles**
 - ![Distribution of trip miles](,./screenshots/hist_trip_miles.jpeg)
 
-- *Boxplot - base passenger fares*
+- **Boxplot - base passenger fares**
 - ![Boxplot of base passenger fares](../screenshots/box_pax_fare.jpeg)
 
-- *Boxplot - Trip Miles* 
+- **Boxplot - Trip Miles**
 - ![Boxplot of trip miles](../screenshots/box_trip_miles.jpeg) 
 
-- *Boxplot - Trip Time* 
+- **Boxplot - Trip Time**
 - ![Boxplot of trip time](../screenshots/box_trip_time.jpeg) 
 
 
 
 
 
-> _Each plot should have a descriptive caption. If you need help exporting images from your Python notebook, see [matplotlib's savefig](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html) or Jupyter's image export tools._
 
 ---
 
