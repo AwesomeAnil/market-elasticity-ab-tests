@@ -201,7 +201,7 @@ This project simulates an A/B experiment at the market level to measure the impa
 
 *Acceptance rates for (C) and (T) by market segment (e.g., airport, peak, weekend).*
 
-### **(EDA - Univariate plots)**
+### **EDA - Univariate plots**
 
 - **Distribution of base passenger fares**
 ![Distributions of fares](../screenshots/hist_base_pax_fare.jpeg)
@@ -214,9 +214,6 @@ This project simulates an A/B experiment at the market level to measure the impa
 
 - **Boxplot - base passenger fares**
 ![Boxplot of base passenger fares](../screenshots/box_pax_fare.jpeg)
-
-- **Boxplot - Trip Miles**
-![Boxplot of trip miles](../screenshots/box_trip_miles.jpeg)
 
 - **Boxplot - Trip Time**
 ![Boxplot of trip time](../screenshots/box_trip_time.jpeg) 
