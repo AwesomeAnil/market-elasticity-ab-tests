@@ -205,26 +205,32 @@ This project simulates an A/B experiment at the market level to measure the impa
 
 - **Distribution of base passenger fares**
 - ![Distributions of fares](../screenshots/hist_base_pax_fare.jpeg)
-
 - **Distribution of trim times**
 - ![Distribution of trip times](../screenshots/hist_trip_time.jpeg)
-
 - **Distribution of trip miles**
 - ![Distribution of trip miles](,./screenshots/hist_trip_miles.jpeg)
-
 - **Boxplot - base passenger fares**
 - ![Boxplot of base passenger fares](../screenshots/box_pax_fare.jpeg)
-
 - **Boxplot - Trip Miles**
 - ![Boxplot of trip miles](../screenshots/box_trip_miles.jpeg) 
-
 - **Boxplot - Trip Time**
 - ![Boxplot of trip time](../screenshots/box_trip_time.jpeg) 
 
+---
 
+### EDA - Bivariate plots
 
-
-
+- **Trip time vs. Airport rides, peak hours, weekend rides**
+- ![Trip times vs. Airport rides, peak hours and weekends](../screenshots/box_bivariate_trip_time.jpeg)
+- - **Trip miles vs. Airport rides, peak hours, weekend rides**
+- ![Trip distance vs. Airport rides, peak hours and weekends](../screenshots/box_bivariate_trip_miles.jpeg)
+- **Base passenger fare vs. Airport rides, peak hours, weekend rides**
+- ![Base pax fare vs. Airport rides, peak hours and weekends](../screenshots/box_bivariate_base_pax_fare.jpeg)
+- **Base Passenger Fares vs. Trip Time (Segments)**
+- ![Base pax fares vs. Trim Time Segments](../screenshots/box_bivariate_base_pax_fare_vs_time.jpeg)
+- **Base Passenger Fares vs. Trip Distance (Segments)**
+- ![Base pax fares vs. Trim Distance Segments](../screenshots/box_bivariate_base_pax_fare_vs_distance.jpeg)
+  
 
 ---
 
