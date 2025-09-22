@@ -203,11 +203,13 @@ This project simulates an A/B experiment at the market level to measure the impa
 *Acceptance rates for (C) and (T) by market segment (e.g., airport, peak, weekend).*
 
 ### **(EDA - Univariate plots)**
-![Distributions of fares](../screenshots/hist_base_pax_fare.jpeg)
+- ![Distributions of fares](../screenshots/hist_base_pax_fare.jpeg)
 * Distribution of base passenger fares*
-![Distribution of trip times](../screenshots/hist_trip_time.jpeg)
+
+- ![Distribution of trip times](../screenshots/hist_trip_time.jpeg)
 *Distribution of trim times*
-![Distribution of miles](,./screenshots/hist_trip_miles.jpeg)
+
+- ![Distribution of miles](,./screenshots/hist_trip_miles.jpeg)
 *Distribution of trip miles*
 
 
